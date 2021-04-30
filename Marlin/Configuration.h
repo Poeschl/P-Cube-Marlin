@@ -1062,7 +1062,7 @@
 #define PROBING_MARGIN 10
 
 // X and Y axis travel speed (mm/min) between probes
-#define XY_PROBE_SPEED (200*60)
+#define XY_PROBE_FEEDRATE (200*60)
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
 #define Z_PROBE_FEEDRATE_FAST (4*60)
@@ -2013,7 +2013,7 @@
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
 #define SPEAKER
-#define BEEPER_PIN EXPA1_10_PIN
+#define BEEPER_PIN EXP1_10_PIN
 
 //
 // The duration and frequency for the UI feedback sound.
